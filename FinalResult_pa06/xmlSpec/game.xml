@@ -1,0 +1,260 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>RuiChang</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>1200</frameMax>
+<username>rchang</username>
+
+<safeDistance>120</safeDistance>
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<gameOverFont name="gameOverFont">
+  <file>font/dyslexic-bold.otf</file>
+  <size>60</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</gameOverFont>
+
+
+
+
+
+<world>
+  <width>2000</width>
+  <height>630</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+  <targetFps>60</targetFps>
+</clock>
+
+
+<back02>
+  <file>images/purple.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1190</width>
+  <height>650</height>
+  <transparency>false</transparency>
+</back02>
+
+<back01>
+  <file>images/background1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2395</width>
+  <height>650</height>
+  <transparency>false</transparency>
+</back01>
+
+<hud>
+ <x>15</x>
+ <y>10</y>
+ <length>200</length>
+ <width>210</width>
+ <thick>2</thick>
+ <color>red</color>
+</hud>
+
+<health>
+   <x>640</x>
+   <y>30</y>
+   <length>200</length>
+   <width>100</width>
+   <thick>14</thick>
+   <increment>20</increment>
+   <interval>1000</interval>
+   <color>red</color>
+</health>
+
+
+<cloud0>
+    <file>images/cloud0.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>104</width>
+    <height>65</height>
+    <startLoc x="200" y="50"/>
+    <speedX>40</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud0>
+<cloud1>
+    <file>images/cloud1.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>216</width>
+    <height>57</height>
+    <startLoc x="400" y="150"/>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud1>
+<cloud2>
+    <file>images/cloud2.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>95</width>
+    <height>59</height>
+    <startLoc x="800" y="100"/>
+    <speedX>80</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud2>
+
+<butterfly>
+    <file>images/Butterfly1.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <startLoc x="500" y="200"/> 
+    <frames>13</frames>
+    <frameInterval>30</frameInterval>
+    <cushion>50</cushion>
+    <scale min="0.5" max="1.1"/>
+    <width>54</width>
+    <height>38</height>
+    <number>30</number>
+    <speedX>40</speedX> 
+    <speedY>40</speedY>
+    <transparency>true</transparency>
+</butterfly>
+
+<angel>
+    <file>images/angel.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <startLoc x="500" y="200"/> 
+    <frames>4</frames>
+    <frameInterval>120</frameInterval>
+    <cushion>50</cushion>
+    <scale min="0.5" max="1"/>
+    <width>56</width>
+    <height>58</height>
+    <number>3</number>
+    <speedX>30</speedX> 
+    <speedY>30</speedY>
+    <transparency>true</transparency>
+</angel>
+
+
+<Mushroom1>
+    <file>images/Mushroom.png</file>
+    <startLoc x="200" y="520"/>
+    <frames>10</frames>
+    <frameInterval>200</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>49.2</width>
+    <height>46</height>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</Mushroom1>
+
+<bulletSprite>
+    <file>images/bulletSprite.png</file>
+    <frames>10</frames>
+    <frameInterval>200</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>65</width>
+    <height>66</height>
+    <speedX>250</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</bulletSprite>
+
+<explosion>
+    <file>images/explosion.png</file>
+    <frames>16</frames>
+    <frameInterval>50</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>62</width>
+    <height>40</height>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</explosion>
+
+<playerExplosion>
+    <file>images/playerExplosion.png</file>
+    <frames>16</frames>
+    <frameInterval>200</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>125</width>
+    <height>110</height>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</playerExplosion>
+
+
+
+
+<Butterfly1>
+    <file>images/Butterfly1.png</file>
+    <startLoc x="200" y="220"/>
+    <frames>13</frames>
+    <frameInterval>30</frameInterval>
+    <scale min="0.5" max="1.5"/>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>54</width>
+    <height>38</height>
+    <speedX>40</speedX>
+    <speedY>40</speedY>
+    <transparency>true</transparency>
+</Butterfly1>
+
+
+<sonicSprite>
+    <file>images/sonicSprite.png</file>
+    <startLoc x="80" y="420"/>
+    <frames>20</frames>
+    <frameInterval>50</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>102.4</width>
+    <height>110</height>
+    <maxHeight>200</maxHeight>
+    <speedX>200</speedX>
+    <speedY>100</speedY>
+    <transparency>true</transparency>
+</sonicSprite>
+
+
+
+
+
+</GameData>

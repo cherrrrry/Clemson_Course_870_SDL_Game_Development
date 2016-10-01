@@ -1,0 +1,149 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Rui Chang</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<username>Rui Chang</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1100</width>
+  <height>630</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+  <targetFps>60</targetFps>
+</clock>
+
+
+<back>
+  <file>images/purple.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>630</height>
+  <transparency>false</transparency>
+</back>
+
+<back01>
+  <file>images/Background01.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>650</height>
+  <transparency>false</transparency>
+</back01>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+
+<cloud0>
+    <file>images/cloud0.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>104</width>
+    <height>65</height>
+    <startLoc x="200" y="50"/>
+    <speedX>40</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud0>
+<cloud1>
+    <file>images/cloud1.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>216</width>
+    <height>57</height>
+    <startLoc x="400" y="150"/>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud1>
+<cloud2>
+    <file>images/cloud2.png</file>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>95</width>
+    <height>59</height>
+    <startLoc x="800" y="100"/>
+    <speedX>80</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</cloud2>
+
+<Mushroom>
+    <file>images/Mushroom.png</file>
+    <startLoc x="200" y="520"/>
+    <frames>10</frames>
+    <frameInterval>200</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>49.2</width>
+    <height>46</height>
+    <speedX>60</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</Mushroom>
+
+
+
+<Butterfly1>
+    <file>images/Butterfly1.png</file>
+    <startLoc x="200" y="220"/>
+    <frames>13</frames>
+    <frameInterval>30</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>54</width>
+    <height>38</height>
+    <speedX>50</speedX>
+    <speedY>50</speedY>
+    <transparency>true</transparency>
+</Butterfly1>
+
+
+<sonicSprite>
+    <file>images/sonicSprite.png</file>
+    <startLoc x="80" y="420"/>
+    <frames>20</frames>
+    <frameInterval>50</frameInterval>
+    <srcX>0</srcX>
+    <srcY>0</srcY>
+    <width>102.4</width>
+    <height>110</height>
+    <speedX>200</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</sonicSprite>
+
+
+
+
+
+</GameData>

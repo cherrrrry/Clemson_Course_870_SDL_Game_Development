@@ -1,0 +1,42 @@
+Name:Rui Chang
+Clemson Email Address:rchang@g.clemson.edu
+
+Project no:6
+Project due: 2015-12-04 12:00am
+
+Projection description:
+  1.Make a vedio about my game.
+  2.Game goal: The game is for users to find angels and shoot them. So, when player shoot all the angel, he will win.
+    The player has health.When player collided with butterfly or angel, the health will reduce.Once health becomes zero,player will die.
+    There will also be score , when player shoot angel or butterfly, the score will increase.
+  3.Hud shows for first 3 second.
+  4.Add sound when player shoot; butterfly ,angel and player explode. And add a background music.
+  5.Collision detection:(1)When bullet collided butterfly, butterfly explode.(2)When player collided butterfly or angel, it will explode and player reduce health.
+  6.Butterfly angel and player explode using a new explode picture to replace them in the position of exploded object.This method meet the requirement of using frames.
+  7.Player shoot,and the BulletSprite inherit from MultiSprite.
+  8.AI: Set angel as smart sprite, when it get closer to player, It will change direction of moving.
+  9.god mode: type g key to switch from normal mode and god mode. In god mode,player collided with angel or butterfly won't lead himself lose health.
+  10.Player shoots, and the bullets stored as Objected Pool.The information of bulletlist and freelist will be shown in Hub.
+  11.The Sprites of this animation:
+    (1)sonicSprite.It is player and also a twoWayMultiSprite.
+	  picture from:http://ourblitzgame.proboards.com/thread/1136/new-member-stuff
+    (2)cloud0,cloud1,cloud2.They are Sprite.
+      pricture from:http://www.xnadevelopment.com/sprites/
+    (3)Butterfly1. It is a multiSprite.
+	  picture from:https://www.glitchthegame.com/inhabitants/animals/butterfly/
+    (4)Mushroom.It is a twoWayMultiSprite.
+	  picture from:http://www.spriters-resource.com/pc_computer/maplestory/sheet/27818/
+    (5)butterfly.It is a scaledMultiSprite.
+          picture same as Butterfly1.
+    (6)background1:/image/background1.png
+          picture from:http://www.deviantart.com/art/Pitch-Forest-281511540
+    (7)background2:/image/purple.png
+	  picture from:http://stormandy.deviantart.com/art/Wip-Parallax-Background-341233890
+    (8)explosion:/image/explosion.png
+      picture from:http://http://www.codeproject.com/KB/game/677417/Explosion2.png
+    (9)playerExplosion:/image/playerExplosion.png
+      pircure from:http://opengameart.org/content/explosion-sprite
+   
+
+
+

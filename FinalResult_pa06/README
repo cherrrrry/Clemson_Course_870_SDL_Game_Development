@@ -4,8 +4,9 @@ Clemson Email Address:rchang@g.clemson.edu
 Project no:6
 Project due: 2015-12-04 12:00am
 
+
 Projection description:
-  1.Make a vedio about my game.
+  1.Make a video about my game.
   2.Game goal: The game is for users to find angels and shoot them. So, when player shoot all the angel, he will win.
     The player has health.When player collided with butterfly or angel, the health will reduce.Once health becomes zero,player will die.
     There will also be score , when player shoot angel or butterfly, the score will increase.
@@ -37,6 +38,22 @@ Projection description:
     (9)playerExplosion:/image/playerExplosion.png
       pircure from:http://opengameart.org/content/explosion-sprite
    
+How to run code:
+	In linux or Mac, make sure you have SDL installed.
+	In command line, do the following two steps:
+	step1. make
+	step2. ./run	
+Configures:
+	be sure to install all the SDL 1.2 files
+	in Ununtu 14.04 install SDL 1.2 files:
+	libsdl1.2-dev
+	libghc-sdl-ttf-dev
+	libghc-sdl-image-dev
+	libghc-sdl-gfx-dev
+	libghc-sdl-mixer-dev
+	libexpat1-dev
 
+Demo video:
+	demo.mp4
 
 
